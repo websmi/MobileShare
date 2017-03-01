@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1 user-scalable=no">
+<meta name="screen-orientation" content="portrait">
+<meta name="x5-orientation" content="portrait">
+<meta name="layoutmode" content="standard">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>移动端分享</title>
+<link rel="stylesheet" href="reset.css">
+</head>
+<body>
+<a href="javascript:;" id="share" style="position:absolute;top:40%;font-size:16px;left:35%;text-align: center">请在移动端测试<br>点击分享</a>
+<script src="share.dev.js"></script>
+<script type="text/javascript">
+mobileShare('share',{
+    title:'分享标题',
+    desc:'分享内容简介',
+    img:''//分享图片地址为空自动获取页面内第一张图片
+});
+</script>
+</body>
+</html>
+

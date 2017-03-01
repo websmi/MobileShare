@@ -1,0 +1,61 @@
+/*
+* @File         reset.css
+* @Author       Mr.Cai
+* @Date         2017-02-28
+* @Contact      Email:297372788@qq.com  QQ:297372788
+* @Modify Date  2017-02-28
+*/
+@charset "UTF-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,header,hgroup,nav,section,article,aside,footer,figure,figcaption,menu,button{margin:0;padding:0;}
+html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%;}
+html *{outline:none;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+body{font-size:12px;color:#333;-webkit-user-select:none;user-select:none;overflow-x:hidden;font-family:'Droid Sans','小米兰亭';}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block;}
+audio,canvas,progress,video{display:inline-block;vertical-align:baseline;}
+audio:not([controls]){display:none;height:0;}
+[hidden],template{display:none;}
+a{color:inherit;background-color:transparent;text-decoration:none;-webkit-tap-highlight-color:transparent;}
+a:active{outline:0;}
+abbr[title]{border-bottom:1px dotted;}
+b,strong{font-weight:700;}
+dfn{font-style:italic;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500;}
+mark{background:#ff0;color:#000;}
+small{font-size:75%;}
+sub{vertical-align:text-bottom;font-size:75%;position:relative;bottom: 0.02rem;}
+sup{vertical-align:text-top;font-size:75%;}
+fieldset,img{border:0;vertical-align:top;}
+svg:not(:root){overflow:hidden;}
+hr{box-sizing:content-box;height:0;}
+pre{overflow:auto;}
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0;}
+button{overflow:visible;}
+button,select{text-transform:none;}
+button,input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:none;cursor:pointer;border:1px #ddd solid;}
+button[disabled],input[disabled]{cursor:default;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+input{line-height:normal;}
+input[type="text"],input[type="number"],input[type="email"],input[type="password"]{padding:0.2rem;border:1px solid #e5e5e5;width:100%;border-radius:0.02rem;line-height:0.4rem;font-size:14px;}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto;}
+input[type="search"]{-webkit-appearance:textfield;}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+legend{border:0;padding:0;}
+textarea{overflow:auto;resize:vertical;display:block;}
+optgroup{font-weight:bold;}
+table{border-collapse:collapse;border-spacing:0;}
+table th,table td{padding:0.2rem 0.1rem;}
+ul,ol,li{list-style:none;}
+em,i{font-style:normal;}
+a,img{-webkit-touch-callout:none;}
+:focus{outline:0;-webkit-tap-highlight-color:transparent;}
+input::-moz-placeholder,textarea::-moz-placeholder{color:#ccc;}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ccc;}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#ccc;}
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+h1{font-size:30px;}
+h2{font-size:24px;}
+h3{font-size:18px;}
+h4{font-size:16px;}
+h5{font-size:14px;}
+h6{font-size:12px;}
